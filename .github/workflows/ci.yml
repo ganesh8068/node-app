@@ -23,4 +23,4 @@ jobs:
         run: docker build -t ganesh8068/node-app:latest .
 
       - name: push docker image in docker hub
-        run: docker push    ganesh8068/node-app:latest .
+        run: docker push ganesh8068/node-app:latest
